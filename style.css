@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(chef.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body h2{
+    color: rgb(164, 241, 10);
+    font-family: sans-serif;
+    margin-left: 40px;
+}
+
+body p{
+    color: khaki;
+}
+
+.navbar{
+    background-color: rgb(139, 134, 134);
+}
+
+.nav-link{
+    color:blue;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color:greenyellow ;
+    font-size: 25px;
+}
+
+.-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+   transition-timing-function: ease-in-out;
+
+}
+
+.-link:hover{
+    color: greenyellow;
+}
+
+.container{
+    background-image: url(bgg.jfif);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+span{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    font-size: 25px;
+   
+}
+
+
+.break{
+    display: grid;
+    border: 2px solid rgb(231, 118, 118);
+    text-align: center;
+    margin: 5px 5px;
+    width: 300px;
+
+}
+
+.lunch{
+    display: grid;
+    border: 2px solid rgb(236, 127, 127);  
+    text-align: center;
+    margin: 5px 5px;
+    width: 300px;
+}
+
+.diner{
+    display: grid;
+    border: 2px solid rgb(233, 158, 158);
+    text-align: center;
+    margin: 5px 5px;
+    width: 300px;
+
+}
+
+#-img{
+    margin-left: 25%;
+    width: 160px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.container h1{
+    margin-bottom: 25px;
+    font-size: 15px;
+    background-color: goldenrod;
+    width: 30px;
+    margin-left: 50%;
+}
+
+.container h3{
+    font-style: italic;
+    text-decoration: underline;padding-bottom: 5px;
+    color: khaki;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.items{
+    max-width: 400px;
+    color: white;
+    margin-left: 3px;
+    font-family: sans-serif;
+}
+
+
+form{
+    /* background-color: gray; */
+  
+}
+
+form label{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form input{
+
+}
+
+.table{
+    max-width: 70%;
+    margin: auto;
+    background-color: black;
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.dropdown-item{
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.dropdown-item:hover{
+    background-color: gray;
+    color: greenyellow;
+}
